@@ -1,0 +1,16 @@
+{
+  "name": "automacao-novoteste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run"
+  },
+  "author": "Felipe Avila",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.1.0",
+    "faker": "^5.5.3"
+  }
+}
